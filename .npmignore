@@ -1,0 +1,9 @@
+.github/
+.husky/
+src/
+
+babel.config.js
+.babelrc.json
+.eslintrc.json
+.lintstaged.json
+webpack.config.mjs
