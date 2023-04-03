@@ -4,7 +4,7 @@
   },
   "dependencies": {
     "@esxl/config-jest-base": "0.1.0",
-    "@esxl/constants": "0.3.0"
+    "@esxl/constants": "0.4.0"
   },
   "description": "A shareable Jest configuration for projects that run in a DOM environment",
   "devDependencies": {
