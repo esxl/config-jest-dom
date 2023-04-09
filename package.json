@@ -3,7 +3,7 @@
     "url": "https://github.com/esxl/config-jest-dom/issues"
   },
   "dependencies": {
-    "@esxl/config-jest-base": "0.1.0",
+    "@esxl/config-jest-base": "0.2.0",
     "@esxl/constants": "0.4.0"
   },
   "description": "A shareable Jest configuration for projects that run in a DOM environment",
