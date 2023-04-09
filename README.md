@@ -1,6 +1,6 @@
 # `@esxl/config-jest-dom`
 
-A shareable Jest [configuration](https://jestjs.io/docs/configuration) for projects that run in a DOM environment.
+A shareable Jest [configuration](https://jestjs.io/docs/configuration) for all EcmaScript based projects.
 
 ## Table of contents
 
@@ -27,6 +27,16 @@ This package simply exports a Jest [configuration](https://jestjs.io/docs/config
 You may either use it as a [`preset`](https://jestjs.io/docs/configuration#preset-string) for your Jest configuration, or import it and extend at will programmatically.
 
 ### Use as a preset
+
+#### Use as a preset via CLI
+
+When you invoke the Jest CLI, add the `--preset` flag:
+
+```sh
+jest --preset @esxl/config-jest-dom
+```
+
+#### Use as a preset via configuration
 
 In your Jest configuration, add the following `preset`:
 
