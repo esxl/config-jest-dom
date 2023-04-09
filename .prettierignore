@@ -7,4 +7,4 @@ dist/
 .gitmodules
 package-lock.json
 
-jest-preset.mjs
+jest-preset.cjs
