@@ -20,7 +20,7 @@ jobs:
       - name: Install fresh dependencies
         env:
           NODE_AUTH_TOKEN: ${{ secrets.BOT_GITHUB_PACKAGES_READONLY }}
-        run: npm install . --ignore-scripts --package-lock-only
+        run: npm --lockfile-version=2 install --ignore-scripts --package-lock-only
 
       - name: Create pull request
         # https://github.com/marketplace/actions/create-pull-request#usage
