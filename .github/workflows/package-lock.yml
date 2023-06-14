@@ -24,7 +24,7 @@ jobs:
 
       - name: Create pull request
         # https://github.com/marketplace/actions/create-pull-request#usage
-        uses: peter-evans/create-pull-request@v5.0.1
+        uses: peter-evans/create-pull-request@v5.0.2
         with:
           body: ''
           branch: package-lock-semver
