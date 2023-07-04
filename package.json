@@ -7,7 +7,7 @@
   },
   "description": "A shareable Jest configuration for projects that run in a DOM environment",
   "devDependencies": {
-    "@babel/core": "^7.21.8",
+    "@babel/core": "^7.22.6",
     "@babel/plugin-transform-runtime": "^7.21.4",
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-typescript": "^7.21.5",
